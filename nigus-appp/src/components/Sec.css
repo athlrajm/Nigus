@@ -1,0 +1,47 @@
+
+.mainx {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    
+  }
+  
+  .left {
+    width: 50%; 
+    padding-right: 20px; 
+    margin-top: 10px;
+    
+  }
+  
+  .right {
+    width: 50%; 
+  }
+  
+  .left p {
+    padding: 5px;
+    color: cadetblue;
+    font-size: larger;
+    margin-top: 15px;
+    
+  }
+  
+  .right img {
+    width: 100%; 
+    height: auto; 
+  }
+  .custom-carousel .carousel-item {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .custom-carousel .carousel-item-next,
+  .custom-carousel .carousel-item-prev,
+  .custom-carousel .carousel-item.active {
+    transform: scale(1.02);
+  }
+  @import "~animate.css/animate.min.css";
+  .carousel-container {
+    max-height: 0; 
+  }

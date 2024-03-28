@@ -1,0 +1,42 @@
+.cxx1{
+    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cp1 {
+    font-family: "Poppins";
+    font-size: medium;
+    color: rgb(15, 224, 186);
+    text-transform: uppercase; 
+    margin-bottom: 20px; 
+}
+.carousel-container {
+    margin-top: 20px;
+    text-align: center; 
+  }
+  
+  .custom-carousel .carousel-item {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .custom-carousel .carousel-item-next,
+  .custom-carousel .carousel-item-prev,
+  .custom-carousel .carousel-item.active {
+    transform: scale(1.02);
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; 
+    padding: 10px; 
+  }
+  
+  .carousel-caption p {
+    margin-bottom: 0; 
+  }
+  
+  .imx1 {
+    width: 100%; 
+    height: 200px; 
+  }
+  
