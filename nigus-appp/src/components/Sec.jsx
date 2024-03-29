@@ -14,21 +14,21 @@ function Sec() {
             
             <div className="carousel-container">
             <Carousel fade controls={false} indicators={false} className="custom-carousel">
-  <Carousel.Item interval={900}>
+  <Carousel.Item interval={150}>
     <img
       className="d-block w-100 animated fadeIn"
       src="https://applover.com/wp-content/uploads/2022/09/Featured-image-%E2%80%93-Guide-to-developing-green-software-in-2022.svg"
       alt="First slide"
     />
   </Carousel.Item>
-  <Carousel.Item interval={800}>
+  <Carousel.Item interval={150}>
     <img
       className="d-block w-100 animated fadeIn"
       src="https://blogs.microsoft.com/wp-content/uploads/prod/2021/05/5-25-image-Green-Software_Sc_3.png"
       alt="Second slide"
     />
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item interval={150}>
     <img
       className="d-block w-100 animated fadeIn"
       src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/24ed9392232693.5e45b4885aef5.jpg"

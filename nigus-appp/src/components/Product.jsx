@@ -5,7 +5,7 @@ function ProductsPage({ name, description, imageUrl }) {
   return (
     <div className="product">
     <img src={imageUrl} alt={name} />
-    <h3>{name}</h3>
+    <h3 className='cp12'>{name}</h3>
     <p>{description}</p>
   </div>
 );

@@ -10,21 +10,21 @@ function Carox() {
 
       
       <Carousel fade controls={false} indicators={false} className="custom-carousel2">
-  <Carousel.Item interval={900}>
+  <Carousel.Item interval={100}>
     <img
       className="imx1"
       src="https://teamddm.com/wp-content/uploads/2022/12/1613664168_ddm_blog_HATcollective1.jpg"
       alt="First slide"
     />
   </Carousel.Item>
-  <Carousel.Item interval={800}>
+  <Carousel.Item interval={100}>
     <img
       className="imx1"
       src="https://www.405group.com/wp-content/uploads/2015/07/405logo-pagesNEW2BIG-39.jpg"
       alt="Second slide"
     />
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item interval={100}>
     <img
       className="imx1"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAVAYekjlt5U5zqHX9WlkM6k4ieGI45RvdAQ&usqp=CAU"
